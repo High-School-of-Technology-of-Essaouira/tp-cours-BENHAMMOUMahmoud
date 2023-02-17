@@ -1,0 +1,70 @@
+nav {
+    background-color: #c55353;
+    height: 50px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #763636;
+  }
+  
+  a.active {
+    background-color: #4CAF50;
+  }
+  .nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+  }
+  Positionnement fixe : utilisez la propriété CSS "position: fixed;" sur la barre de navigation, puis définissez les propriétés "top", "left", "right" et/ou "bottom" pour ajuster sa position par rapport à la fenêtre du navigateur.
+  Exemple :
+  
+  css
+  Copy code
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+  }
+  Positionnement absolu : utilisez la propriété CSS "position: absolute;" sur la barre de navigation, puis définissez les propriétés "top", "left", "right" et/ou "bottom" pour ajuster sa position par rapport à son conteneur parent.
+  Exemple :
+  
+  css
+  Copy code
+  .nav-container {
+    position: relative;
+  }
+  
+  .nav-bar {
+    position: fixed;
+  }
+  
+  
+  
+  
+  
